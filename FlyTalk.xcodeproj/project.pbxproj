@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E8AC30D178FD7AC0070236F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8AC30C178FD7AC0070236F /* UIKit.framework */; };
+		9E8AC30F178FD7AC0070236F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8AC30E178FD7AC0070236F /* Foundation.framework */; };
+		9E8AC311178FD7AC0070236F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8AC310178FD7AC0070236F /* CoreGraphics.framework */; };
+		9E8AC317178FD7AC0070236F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AC315178FD7AC0070236F /* InfoPlist.strings */; };
+		9E8AC319178FD7AC0070236F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AC318178FD7AC0070236F /* main.m */; };
+		9E8AC31D178FD7AC0070236F /* FlyTalkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AC31C178FD7AC0070236F /* FlyTalkAppDelegate.m */; };
+		9E8AC31F178FD7AC0070236F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AC31E178FD7AC0070236F /* Default.png */; };
+		9E8AC321178FD7AC0070236F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AC320178FD7AC0070236F /* Default@2x.png */; };
+		9E8AC323178FD7AC0070236F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AC322178FD7AC0070236F /* Default-568h@2x.png */; };
+		9E8AC326178FD7AC0070236F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AC324178FD7AC0070236F /* MainStoryboard_iPhone.storyboard */; };
+		9E8AC329178FD7AC0070236F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AC327178FD7AC0070236F /* MainStoryboard_iPad.storyboard */; };
+		9E8AC32C178FD7AC0070236F /* FlyTalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AC32B178FD7AC0070236F /* FlyTalkViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E8AC309178FD7AC0070236F /* FlyTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8AC30C178FD7AC0070236F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E8AC30E178FD7AC0070236F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E8AC310178FD7AC0070236F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E8AC314178FD7AC0070236F /* FlyTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyTalk-Info.plist"; sourceTree = "<group>"; };
+		9E8AC316178FD7AC0070236F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E8AC318178FD7AC0070236F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E8AC31A178FD7AC0070236F /* FlyTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyTalk-Prefix.pch"; sourceTree = "<group>"; };
+		9E8AC31B178FD7AC0070236F /* FlyTalkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyTalkAppDelegate.h; sourceTree = "<group>"; };
+		9E8AC31C178FD7AC0070236F /* FlyTalkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyTalkAppDelegate.m; sourceTree = "<group>"; };
+		9E8AC31E178FD7AC0070236F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9E8AC320178FD7AC0070236F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9E8AC322178FD7AC0070236F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E8AC325178FD7AC0070236F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9E8AC328178FD7AC0070236F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9E8AC32A178FD7AC0070236F /* FlyTalkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyTalkViewController.h; sourceTree = "<group>"; };
+		9E8AC32B178FD7AC0070236F /* FlyTalkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyTalkViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E8AC306178FD7AC0070236F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8AC30D178FD7AC0070236F /* UIKit.framework in Frameworks */,
+				9E8AC30F178FD7AC0070236F /* Foundation.framework in Frameworks */,
+				9E8AC311178FD7AC0070236F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E8AC300178FD7AC0070236F = {
+			isa = PBXGroup;
+			children = (
+				9E8AC312178FD7AC0070236F /* FlyTalk */,
+				9E8AC30B178FD7AC0070236F /* Frameworks */,
+				9E8AC30A178FD7AC0070236F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8AC30A178FD7AC0070236F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E8AC309178FD7AC0070236F /* FlyTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8AC30B178FD7AC0070236F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E8AC30C178FD7AC0070236F /* UIKit.framework */,
+				9E8AC30E178FD7AC0070236F /* Foundation.framework */,
+				9E8AC310178FD7AC0070236F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E8AC312178FD7AC0070236F /* FlyTalk */ = {
+			isa = PBXGroup;
+			children = (
+				9E8AC31B178FD7AC0070236F /* FlyTalkAppDelegate.h */,
+				9E8AC31C178FD7AC0070236F /* FlyTalkAppDelegate.m */,
+				9E8AC324178FD7AC0070236F /* MainStoryboard_iPhone.storyboard */,
+				9E8AC327178FD7AC0070236F /* MainStoryboard_iPad.storyboard */,
+				9E8AC32A178FD7AC0070236F /* FlyTalkViewController.h */,
+				9E8AC32B178FD7AC0070236F /* FlyTalkViewController.m */,
+				9E8AC313178FD7AC0070236F /* Supporting Files */,
+			);
+			path = FlyTalk;
+			sourceTree = "<group>";
+		};
+		9E8AC313178FD7AC0070236F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E8AC314178FD7AC0070236F /* FlyTalk-Info.plist */,
+				9E8AC315178FD7AC0070236F /* InfoPlist.strings */,
+				9E8AC318178FD7AC0070236F /* main.m */,
+				9E8AC31A178FD7AC0070236F /* FlyTalk-Prefix.pch */,
+				9E8AC31E178FD7AC0070236F /* Default.png */,
+				9E8AC320178FD7AC0070236F /* Default@2x.png */,
+				9E8AC322178FD7AC0070236F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E8AC308178FD7AC0070236F /* FlyTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8AC32F178FD7AC0070236F /* Build configuration list for PBXNativeTarget "FlyTalk" */;
+			buildPhases = (
+				9E8AC305178FD7AC0070236F /* Sources */,
+				9E8AC306178FD7AC0070236F /* Frameworks */,
+				9E8AC307178FD7AC0070236F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyTalk;
+			productName = FlyTalk;
+			productReference = 9E8AC309178FD7AC0070236F /* FlyTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E8AC301178FD7AC0070236F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FlyTalk;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.logansoft;
+			};
+			buildConfigurationList = 9E8AC304178FD7AC0070236F /* Build configuration list for PBXProject "FlyTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E8AC300178FD7AC0070236F;
+			productRefGroup = 9E8AC30A178FD7AC0070236F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8AC308178FD7AC0070236F /* FlyTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E8AC307178FD7AC0070236F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8AC317178FD7AC0070236F /* InfoPlist.strings in Resources */,
+				9E8AC31F178FD7AC0070236F /* Default.png in Resources */,
+				9E8AC321178FD7AC0070236F /* Default@2x.png in Resources */,
+				9E8AC323178FD7AC0070236F /* Default-568h@2x.png in Resources */,
+				9E8AC326178FD7AC0070236F /* MainStoryboard_iPhone.storyboard in Resources */,
+				9E8AC329178FD7AC0070236F /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E8AC305178FD7AC0070236F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8AC319178FD7AC0070236F /* main.m in Sources */,
+				9E8AC31D178FD7AC0070236F /* FlyTalkAppDelegate.m in Sources */,
+				9E8AC32C178FD7AC0070236F /* FlyTalkViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E8AC315178FD7AC0070236F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E8AC316178FD7AC0070236F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E8AC324178FD7AC0070236F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E8AC325178FD7AC0070236F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9E8AC327178FD7AC0070236F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E8AC328178FD7AC0070236F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E8AC32D178FD7AC0070236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E8AC32E178FD7AC0070236F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E8AC330178FD7AC0070236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyTalk/FlyTalk-Prefix.pch";
+				INFOPLIST_FILE = "FlyTalk/FlyTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E8AC331178FD7AC0070236F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyTalk/FlyTalk-Prefix.pch";
+				INFOPLIST_FILE = "FlyTalk/FlyTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E8AC304178FD7AC0070236F /* Build configuration list for PBXProject "FlyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8AC32D178FD7AC0070236F /* Debug */,
+				9E8AC32E178FD7AC0070236F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8AC32F178FD7AC0070236F /* Build configuration list for PBXNativeTarget "FlyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8AC330178FD7AC0070236F /* Debug */,
+				9E8AC331178FD7AC0070236F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E8AC301178FD7AC0070236F /* Project object */;
+}
